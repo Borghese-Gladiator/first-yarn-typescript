@@ -16,6 +16,7 @@
     "common": "yarn workspace @first-yarn-typescript/common",
     "server": "yarn workspace @first-yarn-typescript/server",
     "build": "ts-node ./scripts/build.ts",
-    "serve": "node ./packages/server/dist/index.js"
+    "serve": "node ./packages/server/dist/index.js",
+    "docker": "docker build . -t first-yarn-typescript"
   }
 }
