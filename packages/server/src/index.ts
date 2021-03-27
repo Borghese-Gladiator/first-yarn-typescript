@@ -1,4 +1,4 @@
-import { APP_TITLE } from "@flipcards/common";
+import { APP_TITLE } from "../../common";
 import cors from "cors";
 import express from "express";
 import { join } from "path";

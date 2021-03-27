@@ -1,4 +1,4 @@
-import { APP_TITLE } from "@flipcards/common";
+import { APP_TITLE } from "../../common";
 import * as React from "react";
 
 export function App(): React.ReactElement {
