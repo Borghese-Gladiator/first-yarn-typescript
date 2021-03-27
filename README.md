@@ -16,6 +16,7 @@ Built from scratch React frontend and Express backend with TypeScript following 
 - Used GitHub Actions to auto-publish Docker image to GitHub Packages every push (see docker-publish.yml)
   - checkouts master/main branch
   - builds Docker image & publishes to repository's packages (GitHub Packages)
+- Fixed tutorial code to use `process.env.PORT || 3000` for Heroku (or any production server)
 - Used GitHub Actions to auto-deploy to Heroku given HEROKU_EMAIL, HEROKU_API_KEY, HEROKU_APP_NAME(see heroku-deploy.yml)
   - added Repo Secrets as outlined [here](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) - HEROKU_EMAIL, HEROKU_API_KEY, HEROKU_APP_NAME
   - script replaces GitHub Secrets with values from project's settings at buildtime
