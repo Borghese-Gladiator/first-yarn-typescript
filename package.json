@@ -1,0 +1,17 @@
+{
+  "name": "first-yarn-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "app": "yarn workspace @first-yarn-typescript/app",
+    "common": "yarn workspace @first-yarn-typescript/common",
+    "server": "yarn workspace @first-yarn-typescript/server"
+  }
+}
