@@ -1,6 +1,8 @@
 # First-Yarn-Typescript
 Built from scratch React frontend and Express backend with TypeScript following tutorial: [https://halftheopposite.dev/post/app-yarn-typescript-esbuild-part-1](https://halftheopposite.dev/post/app-yarn-typescript-esbuild-part-1)
 
+see demo here: [https://first-yarn-typescript.herokuapp.com/](https://first-yarn-typescript.herokuapp.com/)
+
 ## Packages
 - `common` used by both `app` and `server` (provide shared logic and variables)
 - `app` is the React frontend
