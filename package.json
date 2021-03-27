@@ -14,6 +14,7 @@
   "scripts": {
     "app": "yarn workspace @first-yarn-typescript/app",
     "common": "yarn workspace @first-yarn-typescript/common",
-    "server": "yarn workspace @first-yarn-typescript/server"
+    "server": "yarn workspace @first-yarn-typescript/server",
+    "build": "ts-node ./scripts/build.ts"
   }
 }
