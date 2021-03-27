@@ -15,6 +15,7 @@
     "app": "yarn workspace @first-yarn-typescript/app",
     "common": "yarn workspace @first-yarn-typescript/common",
     "server": "yarn workspace @first-yarn-typescript/server",
-    "build": "ts-node ./scripts/build.ts"
+    "build": "ts-node ./scripts/build.ts",
+    "serve": "node ./packages/server/dist/index.js"
   }
 }
